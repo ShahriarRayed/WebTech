@@ -18,3 +18,84 @@ form {
   width: 350px;
 }
 
+h2{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"], 
+input[type="date"],
+select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.gender-group{
+    margin-bottom: 15px;
+}
+
+.gender-group input[type="radio"]{
+    margin-right: 5px;
+}
+
+.gender-group input[type="radio"]{
+    margin-right: 5px;
+}
+
+.gender-group label{
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.terms input[type="checkbox"]{
+    margin-right: 8px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+button:hover {
+background-color: #0056b3;
+}
+
+input:focus, select:focus {
+outline: none;
+border-color: #007BFF;
+box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+@media (max-width: 400px) {
+form {
+width: 90%;
+}
+}

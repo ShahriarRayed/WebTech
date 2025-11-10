@@ -10,4 +10,4 @@ for (var i = str.length - 1; i >= 0; i--) {
 }
  
 // Output the reversed string to the page
-document.getElementById("output").textContent = "Reversed string is: " + reversedStr;
+document.getElementById("output").textContent = "Reversed string is: " + reversedStr;  

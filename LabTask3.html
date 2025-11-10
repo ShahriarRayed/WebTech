@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation Form</title>
     <link rel="stylesheet" href="labTask3.css">
+    <script src="DonationForm.js"></script> 
 </head>
 <body>
     <div class="container">
@@ -38,7 +39,7 @@
                 <option>Chittagong</option>
                 <option>Sylhet</option>
                 <option>Khulna</option>
-            </select
+            </select>
 
             <label>Zip Code<span style="color: brown;">*</span></label>
             <input type="text" name="zip">
@@ -68,6 +69,8 @@
                 <input type="radio" name="amount" value="100"> $100
                 <input type="radio" name="amount" value="250"> $250
                 <input type="radio" name="amount" value="other"> Other
+                
+                <input type="text" name="other_amount" id="other_amount_input" placeholder="Enter amount" style="display:none; margin-left: 10px;">
             </div>
 
             <label>Recurring Donation</label>
@@ -139,7 +142,7 @@
             </div>
 
             <div class="buttons">
-                <button type="submit">Reset</button>
+                <button type="reset">Reset</button>
                 <button type="submit">Continue</button>
             </div>
         </form>

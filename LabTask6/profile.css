@@ -1,0 +1,84 @@
+/* Basic styles for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header and Footer styles */
+header, footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0; /* Use 'em' for padding relative to font size */
+}
+
+/* Margin to separate sections (Step 5) */
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+main {
+    /* Ensures the main content area is clear */
+    width: 100%;
+}
+
+/* The main profile card styles */
+.profile-card {
+    /* Step 4: Fixed width and centered alignment */
+    width: 600px; 
+    margin: 20px auto; /* 'auto' on left/right centers the block */
+
+    /* Step 8: Light background color */
+    background-color: #ffffff;
+
+    /* Step 5: Box Model - Padding */
+    padding: 30px;
+
+    /* Step 5: Box Model - Border */
+    border: 1px solid #ccc;
+    
+    /* Extra: A subtle shadow to make it pop */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* Center text and image inside the card */
+    text-align: center;
+}
+
+/* Profile Photo styles */
+.profile-photo {
+    /* Step 7: Round the image corners */
+    border-radius: 50%; /* Creates a perfect circle */
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Prevents image from stretching */
+    border: 3px solid #eee; /* Light border around the photo */
+}
+
+/* Text styles */
+.profile-card h2 {
+    font-size: 2em; /* Step 6: Use 'em' unit */
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-card .info {
+    font-size: 1.1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.profile-card .bio {
+    font-size: 100%; /* Step 6: Use '%' unit (same as 1em or 16px by default) */
+    text-align: left; /* Bios often look better left-aligned */
+    margin-top: 20px;
+    color: #444;
+}

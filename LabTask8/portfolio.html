@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Your Name - Personal Portfolio</title>
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Personal portfolio website for [Your Name], a computer science student.">
+    <meta name="keywords" content="Computer Science, Student, Portfolio, Web Developer, Resume">
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am a passionate and dedicated computer science student currently
+                seeking internship opportunities. I have a strong foundation in
+                programming, data structures, and web development. I am eager to
+                apply my skills to real-world projects and learn from industry professionals.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Sc. in Computer Science</td>
+                        <td>Your University</td>
+                        <td>2022 - 2026 (Expected)</td>
+                        <td>3.8 / 4.0</td>
+                    </tr>
+                    <tr>
+                        <td>High School Diploma</td>
+                        <td>Your High School</td>
+                        <td>2020</td>
+                        <td>4.0 / 4.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! Please fill out the form below.</p>
+            
+            <form action="/submit-form" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="visitor_name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="visitor_email" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="visitor_message" rows="5" required></textarea>
+                </div>
+                
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
